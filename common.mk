@@ -251,8 +251,7 @@ $(call inherit-product, frameworks/native/build/phone-hdpi-dalvik-heap.mk)
 # We have enough storage space to hold precise GC data
 PRODUCT_TAGS += dalvik.gc.type-precise
 
-# Install/Uninstall google apps
-$(call inherit-product, vendor/google/gapps_armv6_tiny.mk)
+
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
